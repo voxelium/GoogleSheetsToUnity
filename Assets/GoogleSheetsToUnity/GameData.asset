@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f7ba0005a964f3fb9b9367e3d218ad, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  foldoutImportGUI: 1
+  documentId: 1FkSnBI3zEFbaiccRRngjTfgACn63f-aE3MyVZIN3Jq8
+  selectedTogglesIds:
+  - Skills
+  - Units
+  - UnitsSkills
+  foldoutSerializationGUI: 0
+  serializationOutputPath: ../../Configs
+  serializationFileName: Configs.v0.1
+  serializationFormat: 0
+  content:
+    Units:
+    - id: Berserk
+      Health: 10
+      Damage: 5
+    - id: Skeleton
+      Health: 20
+      Damage: 10
+    - id: Mage
+      Health: 30
+      Damage: 15
+    Skills:
+    - Id: Rage
+      Cost: 5.1
+      Cooldown: 8.23
+    - Id: IceBolt
+      Cost: 20.25
+      Cooldown: 5.85
+    - Id: Fireball
+      Cost: 15.5
+      Cooldown: 10.95
+    - Id: Polymorph
+      Cost: 100.16
+      Cooldown: 30.47
+    UnitsSkills:
+    - idUnit: Berserk
+      idSkill: Rage
+    - idUnit: Mage
+      idSkill: IceBolt
+    - idUnit: Mage
+      idSkill: Fireball
+    - idUnit: Mage
+      idSkill: Polymorph
